@@ -1,0 +1,11 @@
+{
+  "name": "property-research-citation-collector",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/research_example.ts",
+    "test": "node --experimental-strip-types test/citation_collector.test.ts"
+  },
+  "dependencies": { "zod": "^3.23.8" }
+}
